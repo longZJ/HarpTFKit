@@ -1,0 +1,16 @@
+PODS:
+  - HarpTFKit (0.1.0)
+
+DEPENDENCIES:
+  - HarpTFKit (from `../`)
+
+EXTERNAL SOURCES:
+  HarpTFKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HarpTFKit: 5d7d193f10dfc42707d7e990c9724a2af29abf3a
+
+PODFILE CHECKSUM: 70bb194a87cdc06956a4a5b95dd6c3dd8dc18d06
+
+COCOAPODS: 1.8.0.beta.2

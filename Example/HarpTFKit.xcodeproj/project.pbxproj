@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		110123705416ED5BA628AB45 /* Pods-HarpTFKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarpTFKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HarpTFKit_Tests/Pods-HarpTFKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		29B92BD0E009508E7289DE1B /* HarpTFKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HarpTFKit.podspec; path = ../HarpTFKit.podspec; sourceTree = "<group>"; };
+		29B92BD0E009508E7289DE1B /* HarpTFKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HarpTFKit.podspec; path = ../HarpTFKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3CD736CBEDCF9AD30B1CE96F /* Pods-HarpTFKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarpTFKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-HarpTFKit_Example/Pods-HarpTFKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4ACD65D1B795ACEEE682A694 /* Pods-HarpTFKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarpTFKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-HarpTFKit_Tests/Pods-HarpTFKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HarpTFKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarpTFKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +60,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		706F5C2CFD658CC06ECDEBDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		706F5C2CFD658CC06ECDEBDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5B088622173B7EDEEEA1A2F /* Pods_HarpTFKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarpTFKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7F566F3E5B91D10B22237A /* Pods-HarpTFKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HarpTFKit_Example.release.xcconfig"; path = "Target Support Files/Pods-HarpTFKit_Example/Pods-HarpTFKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BEFD5FBD202704868C210F50 /* Pods_HarpTFKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HarpTFKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED24F47562CF5DEA07D7812F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ED24F47562CF5DEA07D7812F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				110123705416ED5BA628AB45 /* Pods-HarpTFKit_Tests.debug.xcconfig */,
 				4ACD65D1B795ACEEE682A694 /* Pods-HarpTFKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
